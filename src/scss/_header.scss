@@ -1,0 +1,33 @@
+.container-header{
+
+
+    .content-header{
+        @extend %align-center;
+        flex-direction: row;
+        padding: .8rem 0;
+        background-color: $color-gray;
+
+        .content-social-media-2{
+           display: none;
+
+        }
+        .content-email, .content-telefone{
+            color: $color-primary;
+            @extend %align-center;
+            width: 100%;
+            font-weight: 400;
+            font-size: .7rem;
+            flex-grow: 1;
+        }
+        a{
+            color: $color-primary;
+        }
+
+        .icon{
+            font-size: 1rem;
+            margin: 0 .5rem;
+        }
+        address {
+            margin-bottom: 0}
+    }
+}

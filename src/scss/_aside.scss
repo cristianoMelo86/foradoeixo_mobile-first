@@ -1,0 +1,19 @@
+// ASIDE
+.container-link_lateral{
+
+    .list-group-item{
+        display: flex;
+        background-color: $color-gray;
+        color: $color-secundary;
+        i{
+            font-style: normal;
+            font-weight: 100;
+            font-size: 1.2rem;
+        }
+
+        .bi::before{
+            margin: 1rem ;
+        }
+    }
+}   
+

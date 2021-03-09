@@ -1,0 +1,39 @@
+form{
+    @extend %align-center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    background-color: $color-gray;
+
+    strong{
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .mb-3{
+        width: 100%;
+    }
+
+    .content-whats{
+        @extend %align-center;
+        .btn-lg{
+            max-width: 350px;
+            padding: .6rem 1.8rem;
+            background-color:#3ab54a;
+            border: none;
+
+            &:hover{
+                background-color: #1a8b29;
+                border: none;
+            }
+
+            i{
+                margin-right: 10px;
+            }
+        }
+    }
+
+}
+
+
+
+

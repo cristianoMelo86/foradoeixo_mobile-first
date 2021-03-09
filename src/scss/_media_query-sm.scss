@@ -1,0 +1,41 @@
+///////////////////////////////////////
+// MEDIA QUERY SM - Small ≥576px /////
+//////////////////////////////////////
+
+
+// cards
+@media (min-width: 576px )
+{
+
+    .container-portfolio{
+        padding: 0 2rem;
+        .portfolio-text{
+            width: 100%;
+            
+        }
+
+        .card{
+            flex-grow: 0;
+            flex-basis: 50%;
+            margin: 0 0 10px;
+        }
+
+        
+    }
+}// fim media
+
+// forms
+@media (min-width: 576px )
+{
+
+    .mb-3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-control, .btn-enviar{
+        width: 90%;
+    }
+    
+
+}// fim media

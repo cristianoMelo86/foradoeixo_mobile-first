@@ -1,0 +1,31 @@
+// VIDEO LATERAL
+.container-video{
+    //padding: 0 .8rem;
+    .container-video-lateral{
+        border: none;
+        iframe{
+            width: 100%;
+            //border-radius: 2rem;
+        }
+    }
+
+    .content-whats{
+        @extend %align-center;
+        .btn-lg{
+            max-width: 350px;
+            margin: 20px;
+            padding: .6rem 1.8rem;
+            background-color:#3ab54a;
+            border: none;
+
+            &:hover{
+                background-color: #1a8b29;
+                border: none;
+            }
+
+            i{
+                margin-right: 10px;
+            }
+        }
+    }
+}

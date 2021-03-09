@@ -1,0 +1,36 @@
+// HEADING
+.container-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6.2rem 2rem;
+    text-align: center;
+        .text-heading{
+            font-size: 1.7rem;
+            font-weight: 900;
+            margin-bottom: 30px;
+        }
+    
+        
+        
+
+@media only screen and (min-width: 768px) { 
+
+    #teste{
+        flex-direction: row;
+    }
+        
+        .container-link_lateral{
+            width: 50%;
+
+        }
+    
+        .text-heading{
+            font-size: 3rem;
+        }
+    }
+
+}
+
+
+

@@ -1,0 +1,133 @@
+///////////////////////////////////////
+// MEDIA QUERY XL - Large ≥992px /////
+//////////////////////////////////////
+
+// NAVEGAÇÃO
+@media (min-width: 992px)
+{
+    // HEADER + NAVEGAÇÃO
+    
+    .container-header .content-header a,
+    .container-header .content-header .number-telefone
+    {
+            font-size: 1.3rem;
+            font-weight: 400;
+    }
+
+    .container-header .content-header .icon{
+        font-size: 1.6rem;
+
+    }
+
+    .container-header .content-header .content-social-media-2{
+        display: flex;
+        flex-grow: 0;
+        flex-direction:row;
+        font-size: 1.6rem;
+
+        .nav-item-2{
+            margin:  0 20px;
+        }
+        
+    }
+
+
+
+    .content-social-media {
+       display: none;
+    
+    }
+    
+}// fim media
+
+
+
+
+
+
+
+
+// MAIN
+@media (min-width: 992px)
+{
+    .container-main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 20px;
+
+        .container-heading{
+            width: 100%;
+        }
+
+        .container-link_lateral, .container-video{
+            width: 48%;
+        }
+
+        .container-link_lateral{
+            
+            .list-group-item i{
+                font-size: 1.6rem;
+            }
+        }
+
+        .line{
+            width: 100%;
+        }
+    }
+}
+
+// // VIDEO LATERAL
+@media (min-width: 992px){
+
+    .container-video{
+        display: flex;
+        flex-direction: column;
+                
+        .content-whats{
+            width: 400px; 
+            align-self: center;
+        }
+    }
+}
+
+
+// CARDS
+@media (min-width: 992px){
+
+    .container-portfolio{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 20px;
+
+
+        .portfolio-text{
+            width: 100%;
+            margin: 30px 0;
+            font-size: 2.5rem;
+        }
+
+        .card-deck{
+            justify-content: space-around;
+        }
+
+        .card{
+            flex-grow: 0;
+            flex-basis: 31%;
+            margin:0;
+        }
+    }
+
+}
+
+// FORMS
+@media (min-width: 992px )
+{
+
+    .form-control, .btn-enviar{
+        width: 70%;
+    }
+    
+
+}// fim media

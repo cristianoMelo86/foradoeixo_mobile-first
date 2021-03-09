@@ -1,0 +1,19 @@
+///////////////////////////////////////
+// MEDIA QUERY MD - Medium ≥768px /////
+//////////////////////////////////////
+
+
+// cards
+@media (min-width: 768px )
+{
+    .container-portfolio{
+
+        .portfolio-text{
+            flex-basis: 100%;
+        }
+
+ 
+    }
+    
+
+}// fim media

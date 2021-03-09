@@ -1,0 +1,18 @@
+html{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+*{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    color: $color-secundary;
+}
+
+body {
+    // manda o body pra baixo para ajustar a navbar fixed
+    padding-top: 100px;
+  }

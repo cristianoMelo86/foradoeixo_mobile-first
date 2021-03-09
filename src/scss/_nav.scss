@@ -1,0 +1,26 @@
+.bg-light{
+    background-color: red;
+}
+
+.logo{
+    width: 12rem;
+}
+
+.content-social-media{
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+
+    .nav-item{
+        margin: 0 .6rem;
+        
+        .nav-link{
+            color: $color-secundary;
+        }
+        .nav-link:active{
+            color:$color-primary;
+        }
+
+    }
+}
+

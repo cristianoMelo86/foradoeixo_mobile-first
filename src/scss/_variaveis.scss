@@ -1,0 +1,18 @@
+$color-primary: #173F5F;
+$color-secundary: #e83c44;
+$color-terc: rgb(102, 102, 102);
+$color-gray: #f3f3f3;
+
+// MIXINS
+%border1 {
+    border: 2px solid red;
+  }
+
+%border2 {
+    border: 1px dotted blue;}
+
+%align-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
